@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183DB2531CBBB405006EAC0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB2521CBBB405006EAC0D /* main.m */; };
+		183DB2561CBBB405006EAC0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB2551CBBB405006EAC0D /* AppDelegate.m */; };
+		183DB2591CBBB405006EAC0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB2581CBBB405006EAC0D /* ViewController.m */; };
+		183DB25C1CBBB405006EAC0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183DB25A1CBBB405006EAC0D /* Main.storyboard */; };
+		183DB25E1CBBB405006EAC0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 183DB25D1CBBB405006EAC0D /* Assets.xcassets */; };
+		183DB2611CBBB405006EAC0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 183DB25F1CBBB405006EAC0D /* LaunchScreen.storyboard */; };
+		183DB26C1CBBB405006EAC0D /* KFScrollViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB26B1CBBB405006EAC0D /* KFScrollViewDemoTests.m */; };
+		183DB2771CBBB405006EAC0D /* KFScrollViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB2761CBBB405006EAC0D /* KFScrollViewDemoUITests.m */; };
+		183DB2931CBBB4EC006EAC0D /* KFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB2921CBBB4EC006EAC0D /* KFScrollView.m */; };
+		183DB2961CBC85BB006EAC0D /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB2951CBC85BB006EAC0D /* DataModel.m */; };
+		183DB2991CBC8711006EAC0D /* KFScrollContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB2981CBC8711006EAC0D /* KFScrollContentView.m */; };
+		183DB29C1CBC8863006EAC0D /* ItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB29B1CBC8863006EAC0D /* ItemButton.m */; };
+		183DB29F1CBC88C6006EAC0D /* UIColor+MLPFlatColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB29E1CBC88C6006EAC0D /* UIColor+MLPFlatColors.m */; };
+		183DB2A31CBC8BE2006EAC0D /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 183DB2A21CBC8BE2006EAC0D /* Data.json */; };
+		183DB2A61CBC8E1C006EAC0D /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183DB2A51CBC8E1C006EAC0D /* PushViewController.m */; };
+		183DB2AD1CBC9113006EAC0D /* me1.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DB2A71CBC9113006EAC0D /* me1.png */; };
+		183DB2AE1CBC9113006EAC0D /* me2.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DB2A81CBC9113006EAC0D /* me2.png */; };
+		183DB2AF1CBC9113006EAC0D /* me3.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DB2A91CBC9113006EAC0D /* me3.png */; };
+		183DB2B01CBC9113006EAC0D /* me4.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DB2AA1CBC9113006EAC0D /* me4.png */; };
+		183DB2B11CBC9113006EAC0D /* me5.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DB2AB1CBC9113006EAC0D /* me5.png */; };
+		183DB2B21CBC9113006EAC0D /* me6.png in Resources */ = {isa = PBXBuildFile; fileRef = 183DB2AC1CBC9113006EAC0D /* me6.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		183DB2681CBBB405006EAC0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183DB2461CBBB405006EAC0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183DB24D1CBBB405006EAC0D;
+			remoteInfo = KFScrollViewDemo;
+		};
+		183DB2731CBBB405006EAC0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 183DB2461CBBB405006EAC0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 183DB24D1CBBB405006EAC0D;
+			remoteInfo = KFScrollViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		183DB24E1CBBB405006EAC0D /* KFScrollViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFScrollViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183DB2521CBBB405006EAC0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183DB2541CBBB405006EAC0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		183DB2551CBBB405006EAC0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		183DB2571CBBB405006EAC0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		183DB2581CBBB405006EAC0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		183DB25B1CBBB405006EAC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		183DB25D1CBBB405006EAC0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		183DB2601CBBB405006EAC0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		183DB2621CBBB405006EAC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183DB2671CBBB405006EAC0D /* KFScrollViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFScrollViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183DB26B1CBBB405006EAC0D /* KFScrollViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFScrollViewDemoTests.m; sourceTree = "<group>"; };
+		183DB26D1CBBB405006EAC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183DB2721CBBB405006EAC0D /* KFScrollViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KFScrollViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		183DB2761CBBB405006EAC0D /* KFScrollViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFScrollViewDemoUITests.m; sourceTree = "<group>"; };
+		183DB2781CBBB405006EAC0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		183DB2911CBBB4EC006EAC0D /* KFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFScrollView.h; sourceTree = "<group>"; };
+		183DB2921CBBB4EC006EAC0D /* KFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFScrollView.m; sourceTree = "<group>"; };
+		183DB2941CBC85BB006EAC0D /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataModel.h; path = KFScrollView/DataModel.h; sourceTree = "<group>"; };
+		183DB2951CBC85BB006EAC0D /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataModel.m; path = KFScrollView/DataModel.m; sourceTree = "<group>"; };
+		183DB2971CBC8711006EAC0D /* KFScrollContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KFScrollContentView.h; sourceTree = "<group>"; };
+		183DB2981CBC8711006EAC0D /* KFScrollContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KFScrollContentView.m; sourceTree = "<group>"; };
+		183DB29A1CBC8863006EAC0D /* ItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemButton.h; sourceTree = "<group>"; };
+		183DB29B1CBC8863006EAC0D /* ItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemButton.m; sourceTree = "<group>"; };
+		183DB29D1CBC88C6006EAC0D /* UIColor+MLPFlatColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MLPFlatColors.h"; sourceTree = "<group>"; };
+		183DB29E1CBC88C6006EAC0D /* UIColor+MLPFlatColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MLPFlatColors.m"; sourceTree = "<group>"; };
+		183DB2A21CBC8BE2006EAC0D /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		183DB2A41CBC8E1C006EAC0D /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		183DB2A51CBC8E1C006EAC0D /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		183DB2A71CBC9113006EAC0D /* me1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me1.png; sourceTree = "<group>"; };
+		183DB2A81CBC9113006EAC0D /* me2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me2.png; sourceTree = "<group>"; };
+		183DB2A91CBC9113006EAC0D /* me3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me3.png; sourceTree = "<group>"; };
+		183DB2AA1CBC9113006EAC0D /* me4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me4.png; sourceTree = "<group>"; };
+		183DB2AB1CBC9113006EAC0D /* me5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me5.png; sourceTree = "<group>"; };
+		183DB2AC1CBC9113006EAC0D /* me6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = me6.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183DB24B1CBBB405006EAC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183DB2641CBBB405006EAC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183DB26F1CBBB405006EAC0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183DB2451CBBB405006EAC0D = {
+			isa = PBXGroup;
+			children = (
+				183DB2501CBBB405006EAC0D /* KFScrollViewDemo */,
+				183DB26A1CBBB405006EAC0D /* KFScrollViewDemoTests */,
+				183DB2751CBBB405006EAC0D /* KFScrollViewDemoUITests */,
+				183DB24F1CBBB405006EAC0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183DB24F1CBBB405006EAC0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183DB24E1CBBB405006EAC0D /* KFScrollViewDemo.app */,
+				183DB2671CBBB405006EAC0D /* KFScrollViewDemoTests.xctest */,
+				183DB2721CBBB405006EAC0D /* KFScrollViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183DB2501CBBB405006EAC0D /* KFScrollViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				183DB2B31CBC925B006EAC0D /* Resource */,
+				183DB2841CBBB44E006EAC0D /* KFScrollView */,
+				183DB2541CBBB405006EAC0D /* AppDelegate.h */,
+				183DB2551CBBB405006EAC0D /* AppDelegate.m */,
+				183DB2571CBBB405006EAC0D /* ViewController.h */,
+				183DB2581CBBB405006EAC0D /* ViewController.m */,
+				183DB2A41CBC8E1C006EAC0D /* PushViewController.h */,
+				183DB2A51CBC8E1C006EAC0D /* PushViewController.m */,
+				183DB25A1CBBB405006EAC0D /* Main.storyboard */,
+				183DB25D1CBBB405006EAC0D /* Assets.xcassets */,
+				183DB25F1CBBB405006EAC0D /* LaunchScreen.storyboard */,
+				183DB2621CBBB405006EAC0D /* Info.plist */,
+				183DB2511CBBB405006EAC0D /* Supporting Files */,
+			);
+			path = KFScrollViewDemo;
+			sourceTree = "<group>";
+		};
+		183DB2511CBBB405006EAC0D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183DB29D1CBC88C6006EAC0D /* UIColor+MLPFlatColors.h */,
+				183DB29E1CBC88C6006EAC0D /* UIColor+MLPFlatColors.m */,
+				183DB2521CBBB405006EAC0D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183DB26A1CBBB405006EAC0D /* KFScrollViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				183DB26B1CBBB405006EAC0D /* KFScrollViewDemoTests.m */,
+				183DB26D1CBBB405006EAC0D /* Info.plist */,
+			);
+			path = KFScrollViewDemoTests;
+			sourceTree = "<group>";
+		};
+		183DB2751CBBB405006EAC0D /* KFScrollViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				183DB2761CBBB405006EAC0D /* KFScrollViewDemoUITests.m */,
+				183DB2781CBBB405006EAC0D /* Info.plist */,
+			);
+			path = KFScrollViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		183DB2841CBBB44E006EAC0D /* KFScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				183DB2911CBBB4EC006EAC0D /* KFScrollView.h */,
+				183DB2921CBBB4EC006EAC0D /* KFScrollView.m */,
+				183DB2971CBC8711006EAC0D /* KFScrollContentView.h */,
+				183DB2981CBC8711006EAC0D /* KFScrollContentView.m */,
+				183DB29A1CBC8863006EAC0D /* ItemButton.h */,
+				183DB29B1CBC8863006EAC0D /* ItemButton.m */,
+			);
+			path = KFScrollView;
+			sourceTree = "<group>";
+		};
+		183DB2B31CBC925B006EAC0D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				183DB2941CBC85BB006EAC0D /* DataModel.h */,
+				183DB2951CBC85BB006EAC0D /* DataModel.m */,
+				183DB2A21CBC8BE2006EAC0D /* Data.json */,
+				183DB2A71CBC9113006EAC0D /* me1.png */,
+				183DB2A81CBC9113006EAC0D /* me2.png */,
+				183DB2A91CBC9113006EAC0D /* me3.png */,
+				183DB2AA1CBC9113006EAC0D /* me4.png */,
+				183DB2AB1CBC9113006EAC0D /* me5.png */,
+				183DB2AC1CBC9113006EAC0D /* me6.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183DB24D1CBBB405006EAC0D /* KFScrollViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183DB27B1CBBB405006EAC0D /* Build configuration list for PBXNativeTarget "KFScrollViewDemo" */;
+			buildPhases = (
+				183DB24A1CBBB405006EAC0D /* Sources */,
+				183DB24B1CBBB405006EAC0D /* Frameworks */,
+				183DB24C1CBBB405006EAC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KFScrollViewDemo;
+			productName = KFScrollViewDemo;
+			productReference = 183DB24E1CBBB405006EAC0D /* KFScrollViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		183DB2661CBBB405006EAC0D /* KFScrollViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183DB27E1CBBB405006EAC0D /* Build configuration list for PBXNativeTarget "KFScrollViewDemoTests" */;
+			buildPhases = (
+				183DB2631CBBB405006EAC0D /* Sources */,
+				183DB2641CBBB405006EAC0D /* Frameworks */,
+				183DB2651CBBB405006EAC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183DB2691CBBB405006EAC0D /* PBXTargetDependency */,
+			);
+			name = KFScrollViewDemoTests;
+			productName = KFScrollViewDemoTests;
+			productReference = 183DB2671CBBB405006EAC0D /* KFScrollViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		183DB2711CBBB405006EAC0D /* KFScrollViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183DB2811CBBB405006EAC0D /* Build configuration list for PBXNativeTarget "KFScrollViewDemoUITests" */;
+			buildPhases = (
+				183DB26E1CBBB405006EAC0D /* Sources */,
+				183DB26F1CBBB405006EAC0D /* Frameworks */,
+				183DB2701CBBB405006EAC0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				183DB2741CBBB405006EAC0D /* PBXTargetDependency */,
+			);
+			name = KFScrollViewDemoUITests;
+			productName = KFScrollViewDemoUITests;
+			productReference = 183DB2721CBBB405006EAC0D /* KFScrollViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183DB2461CBBB405006EAC0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "吴凯锋 QQ:24272779";
+				TargetAttributes = {
+					183DB24D1CBBB405006EAC0D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					183DB2661CBBB405006EAC0D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 183DB24D1CBBB405006EAC0D;
+					};
+					183DB2711CBBB405006EAC0D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 183DB24D1CBBB405006EAC0D;
+					};
+				};
+			};
+			buildConfigurationList = 183DB2491CBBB405006EAC0D /* Build configuration list for PBXProject "KFScrollViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 183DB2451CBBB405006EAC0D;
+			productRefGroup = 183DB24F1CBBB405006EAC0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183DB24D1CBBB405006EAC0D /* KFScrollViewDemo */,
+				183DB2661CBBB405006EAC0D /* KFScrollViewDemoTests */,
+				183DB2711CBBB405006EAC0D /* KFScrollViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183DB24C1CBBB405006EAC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183DB2B11CBC9113006EAC0D /* me5.png in Resources */,
+				183DB2B01CBC9113006EAC0D /* me4.png in Resources */,
+				183DB2AE1CBC9113006EAC0D /* me2.png in Resources */,
+				183DB2A31CBC8BE2006EAC0D /* Data.json in Resources */,
+				183DB2B21CBC9113006EAC0D /* me6.png in Resources */,
+				183DB2611CBBB405006EAC0D /* LaunchScreen.storyboard in Resources */,
+				183DB2AF1CBC9113006EAC0D /* me3.png in Resources */,
+				183DB25E1CBBB405006EAC0D /* Assets.xcassets in Resources */,
+				183DB25C1CBBB405006EAC0D /* Main.storyboard in Resources */,
+				183DB2AD1CBC9113006EAC0D /* me1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183DB2651CBBB405006EAC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183DB2701CBBB405006EAC0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183DB24A1CBBB405006EAC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183DB2991CBC8711006EAC0D /* KFScrollContentView.m in Sources */,
+				183DB2931CBBB4EC006EAC0D /* KFScrollView.m in Sources */,
+				183DB2A61CBC8E1C006EAC0D /* PushViewController.m in Sources */,
+				183DB2961CBC85BB006EAC0D /* DataModel.m in Sources */,
+				183DB2591CBBB405006EAC0D /* ViewController.m in Sources */,
+				183DB29F1CBC88C6006EAC0D /* UIColor+MLPFlatColors.m in Sources */,
+				183DB2561CBBB405006EAC0D /* AppDelegate.m in Sources */,
+				183DB2531CBBB405006EAC0D /* main.m in Sources */,
+				183DB29C1CBC8863006EAC0D /* ItemButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183DB2631CBBB405006EAC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183DB26C1CBBB405006EAC0D /* KFScrollViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		183DB26E1CBBB405006EAC0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183DB2771CBBB405006EAC0D /* KFScrollViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		183DB2691CBBB405006EAC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183DB24D1CBBB405006EAC0D /* KFScrollViewDemo */;
+			targetProxy = 183DB2681CBBB405006EAC0D /* PBXContainerItemProxy */;
+		};
+		183DB2741CBBB405006EAC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 183DB24D1CBBB405006EAC0D /* KFScrollViewDemo */;
+			targetProxy = 183DB2731CBBB405006EAC0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		183DB25A1CBBB405006EAC0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183DB25B1CBBB405006EAC0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		183DB25F1CBBB405006EAC0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183DB2601CBBB405006EAC0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183DB2791CBBB405006EAC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183DB27A1CBBB405006EAC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183DB27C1CBBB405006EAC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KFScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSFeng.com.KFScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		183DB27D1CBBB405006EAC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KFScrollViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSFeng.com.KFScrollViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		183DB27F1CBBB405006EAC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KFScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSFeng.com.KFScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFScrollViewDemo.app/KFScrollViewDemo";
+			};
+			name = Debug;
+		};
+		183DB2801CBBB405006EAC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KFScrollViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSFeng.com.KFScrollViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KFScrollViewDemo.app/KFScrollViewDemo";
+			};
+			name = Release;
+		};
+		183DB2821CBBB405006EAC0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KFScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSFeng.com.KFScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KFScrollViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		183DB2831CBBB405006EAC0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KFScrollViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = NSFeng.com.KFScrollViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KFScrollViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183DB2491CBBB405006EAC0D /* Build configuration list for PBXProject "KFScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183DB2791CBBB405006EAC0D /* Debug */,
+				183DB27A1CBBB405006EAC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183DB27B1CBBB405006EAC0D /* Build configuration list for PBXNativeTarget "KFScrollViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183DB27C1CBBB405006EAC0D /* Debug */,
+				183DB27D1CBBB405006EAC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183DB27E1CBBB405006EAC0D /* Build configuration list for PBXNativeTarget "KFScrollViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183DB27F1CBBB405006EAC0D /* Debug */,
+				183DB2801CBBB405006EAC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183DB2811CBBB405006EAC0D /* Build configuration list for PBXNativeTarget "KFScrollViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183DB2821CBBB405006EAC0D /* Debug */,
+				183DB2831CBBB405006EAC0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183DB2461CBBB405006EAC0D /* Project object */;
+}

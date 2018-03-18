@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3CCF74E1C895AA60018BABA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF74D1C895AA60018BABA /* main.m */; };
+		E3CCF7511C895AA60018BABA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7501C895AA60018BABA /* AppDelegate.m */; };
+		E3CCF7541C895AA60018BABA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7531C895AA60018BABA /* ViewController.m */; };
+		E3CCF7571C895AA60018BABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CCF7551C895AA60018BABA /* Main.storyboard */; };
+		E3CCF7591C895AA60018BABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3CCF7581C895AA60018BABA /* Assets.xcassets */; };
+		E3CCF75C1C895AA60018BABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3CCF75A1C895AA60018BABA /* LaunchScreen.storyboard */; };
+		E3CCF7671C895AA70018BABA /* HCSpringBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7661C895AA70018BABA /* HCSpringBoardTests.m */; };
+		E3CCF7721C895AA70018BABA /* HCSpringBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7711C895AA70018BABA /* HCSpringBoardUITests.m */; };
+		E3CCF7861C895DCB0018BABA /* HCAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7851C895DCB0018BABA /* HCAssistant.m */; };
+		E3CCF78C1C8964890018BABA /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7891C8964890018BABA /* NSObject+YYModel.m */; };
+		E3CCF78D1C8964890018BABA /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF78B1C8964890018BABA /* YYClassInfo.m */; };
+		E3CCF7B41C89685C0018BABA /* HCFavoriteIconModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7B31C89685C0018BABA /* HCFavoriteIconModel.m */; };
+		E3CCF7B71C8974390018BABA /* HCSpringBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7B61C8974390018BABA /* HCSpringBoardView.m */; };
+		E3CCF7C91C8C74DA0018BABA /* HCIndexRect.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7C81C8C74DA0018BABA /* HCIndexRect.m */; };
+		E3CCF7CC1C8C78570018BABA /* HCFavoriteFolderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7CB1C8C78570018BABA /* HCFavoriteFolderModel.m */; };
+		E3CCF7CF1C8C78D30018BABA /* HCFavoriteIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7CE1C8C78D30018BABA /* HCFavoriteIconView.m */; };
+		E3CCF7D21C8C78E70018BABA /* HCFavoriteFolderView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7D11C8C78E70018BABA /* HCFavoriteFolderView.m */; };
+		E3CCF7D51C8D1D540018BABA /* HCBankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7D41C8D1D540018BABA /* HCBankListViewController.m */; };
+		E3CCF7D81C8D26330018BABA /* HCFavoriteFolderFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7D71C8D26330018BABA /* HCFavoriteFolderFloatView.m */; };
+		E3CCF7DB1C8D27C00018BABA /* HCFavoriteFolderMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CCF7DA1C8D27C00018BABA /* HCFavoriteFolderMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3CCF7631C895AA70018BABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3CCF7411C895AA60018BABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CCF7481C895AA60018BABA;
+			remoteInfo = HCSpringBoard;
+		};
+		E3CCF76E1C895AA70018BABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3CCF7411C895AA60018BABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3CCF7481C895AA60018BABA;
+			remoteInfo = HCSpringBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E3CCF7491C895AA60018BABA /* HCSpringBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCSpringBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CCF74D1C895AA60018BABA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3CCF74F1C895AA60018BABA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3CCF7501C895AA60018BABA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3CCF7521C895AA60018BABA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E3CCF7531C895AA60018BABA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3CCF7561C895AA60018BABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3CCF7581C895AA60018BABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3CCF75B1C895AA60018BABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3CCF75D1C895AA60018BABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CCF7621C895AA70018BABA /* HCSpringBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCSpringBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CCF7661C895AA70018BABA /* HCSpringBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCSpringBoardTests.m; sourceTree = "<group>"; };
+		E3CCF7681C895AA70018BABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CCF76D1C895AA70018BABA /* HCSpringBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HCSpringBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3CCF7711C895AA70018BABA /* HCSpringBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCSpringBoardUITests.m; sourceTree = "<group>"; };
+		E3CCF7731C895AA70018BABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3CCF7841C895DCB0018BABA /* HCAssistant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCAssistant.h; sourceTree = "<group>"; };
+		E3CCF7851C895DCB0018BABA /* HCAssistant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCAssistant.m; sourceTree = "<group>"; };
+		E3CCF7881C8964890018BABA /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		E3CCF7891C8964890018BABA /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		E3CCF78A1C8964890018BABA /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		E3CCF78B1C8964890018BABA /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		E3CCF7B21C89685C0018BABA /* HCFavoriteIconModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCFavoriteIconModel.h; sourceTree = "<group>"; };
+		E3CCF7B31C89685C0018BABA /* HCFavoriteIconModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCFavoriteIconModel.m; sourceTree = "<group>"; };
+		E3CCF7B51C8974390018BABA /* HCSpringBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCSpringBoardView.h; sourceTree = "<group>"; };
+		E3CCF7B61C8974390018BABA /* HCSpringBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCSpringBoardView.m; sourceTree = "<group>"; };
+		E3CCF7C71C8C74DA0018BABA /* HCIndexRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCIndexRect.h; sourceTree = "<group>"; };
+		E3CCF7C81C8C74DA0018BABA /* HCIndexRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCIndexRect.m; sourceTree = "<group>"; };
+		E3CCF7CA1C8C78570018BABA /* HCFavoriteFolderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCFavoriteFolderModel.h; sourceTree = "<group>"; };
+		E3CCF7CB1C8C78570018BABA /* HCFavoriteFolderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCFavoriteFolderModel.m; sourceTree = "<group>"; };
+		E3CCF7CD1C8C78D30018BABA /* HCFavoriteIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCFavoriteIconView.h; sourceTree = "<group>"; };
+		E3CCF7CE1C8C78D30018BABA /* HCFavoriteIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCFavoriteIconView.m; sourceTree = "<group>"; };
+		E3CCF7D01C8C78E70018BABA /* HCFavoriteFolderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCFavoriteFolderView.h; sourceTree = "<group>"; };
+		E3CCF7D11C8C78E70018BABA /* HCFavoriteFolderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCFavoriteFolderView.m; sourceTree = "<group>"; };
+		E3CCF7D31C8D1D540018BABA /* HCBankListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCBankListViewController.h; sourceTree = "<group>"; };
+		E3CCF7D41C8D1D540018BABA /* HCBankListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCBankListViewController.m; sourceTree = "<group>"; };
+		E3CCF7D61C8D26330018BABA /* HCFavoriteFolderFloatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCFavoriteFolderFloatView.h; sourceTree = "<group>"; };
+		E3CCF7D71C8D26330018BABA /* HCFavoriteFolderFloatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCFavoriteFolderFloatView.m; sourceTree = "<group>"; };
+		E3CCF7D91C8D27C00018BABA /* HCFavoriteFolderMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCFavoriteFolderMenuView.h; sourceTree = "<group>"; };
+		E3CCF7DA1C8D27C00018BABA /* HCFavoriteFolderMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCFavoriteFolderMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3CCF7461C895AA60018BABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CCF75F1C895AA70018BABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CCF76A1C895AA70018BABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3CCF7401C895AA60018BABA = {
+			isa = PBXGroup;
+			children = (
+				E3CCF74B1C895AA60018BABA /* HCSpringBoard */,
+				E3CCF7651C895AA70018BABA /* HCSpringBoardTests */,
+				E3CCF7701C895AA70018BABA /* HCSpringBoardUITests */,
+				E3CCF74A1C895AA60018BABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3CCF74A1C895AA60018BABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3CCF7491C895AA60018BABA /* HCSpringBoard.app */,
+				E3CCF7621C895AA70018BABA /* HCSpringBoardTests.xctest */,
+				E3CCF76D1C895AA70018BABA /* HCSpringBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3CCF74B1C895AA60018BABA /* HCSpringBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E3CCF7831C895D900018BABA /* SpringBoard */,
+				E3CCF74F1C895AA60018BABA /* AppDelegate.h */,
+				E3CCF7501C895AA60018BABA /* AppDelegate.m */,
+				E3CCF7521C895AA60018BABA /* ViewController.h */,
+				E3CCF7531C895AA60018BABA /* ViewController.m */,
+				E3CCF7551C895AA60018BABA /* Main.storyboard */,
+				E3CCF7581C895AA60018BABA /* Assets.xcassets */,
+				E3CCF75A1C895AA60018BABA /* LaunchScreen.storyboard */,
+				E3CCF75D1C895AA60018BABA /* Info.plist */,
+				E3CCF74C1C895AA60018BABA /* Supporting Files */,
+			);
+			path = HCSpringBoard;
+			sourceTree = "<group>";
+		};
+		E3CCF74C1C895AA60018BABA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3CCF74D1C895AA60018BABA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3CCF7651C895AA70018BABA /* HCSpringBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3CCF7661C895AA70018BABA /* HCSpringBoardTests.m */,
+				E3CCF7681C895AA70018BABA /* Info.plist */,
+			);
+			path = HCSpringBoardTests;
+			sourceTree = "<group>";
+		};
+		E3CCF7701C895AA70018BABA /* HCSpringBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3CCF7711C895AA70018BABA /* HCSpringBoardUITests.m */,
+				E3CCF7731C895AA70018BABA /* Info.plist */,
+			);
+			path = HCSpringBoardUITests;
+			sourceTree = "<group>";
+		};
+		E3CCF7831C895D900018BABA /* SpringBoard */ = {
+			isa = PBXGroup;
+			children = (
+				E3CCF7871C8964890018BABA /* YYModel */,
+				E3CCF7841C895DCB0018BABA /* HCAssistant.h */,
+				E3CCF7851C895DCB0018BABA /* HCAssistant.m */,
+				E3CCF7B51C8974390018BABA /* HCSpringBoardView.h */,
+				E3CCF7B61C8974390018BABA /* HCSpringBoardView.m */,
+				E3CCF7B21C89685C0018BABA /* HCFavoriteIconModel.h */,
+				E3CCF7B31C89685C0018BABA /* HCFavoriteIconModel.m */,
+				E3CCF7CA1C8C78570018BABA /* HCFavoriteFolderModel.h */,
+				E3CCF7CB1C8C78570018BABA /* HCFavoriteFolderModel.m */,
+				E3CCF7CD1C8C78D30018BABA /* HCFavoriteIconView.h */,
+				E3CCF7CE1C8C78D30018BABA /* HCFavoriteIconView.m */,
+				E3CCF7D01C8C78E70018BABA /* HCFavoriteFolderView.h */,
+				E3CCF7D11C8C78E70018BABA /* HCFavoriteFolderView.m */,
+				E3CCF7C71C8C74DA0018BABA /* HCIndexRect.h */,
+				E3CCF7C81C8C74DA0018BABA /* HCIndexRect.m */,
+				E3CCF7D61C8D26330018BABA /* HCFavoriteFolderFloatView.h */,
+				E3CCF7D71C8D26330018BABA /* HCFavoriteFolderFloatView.m */,
+				E3CCF7D91C8D27C00018BABA /* HCFavoriteFolderMenuView.h */,
+				E3CCF7DA1C8D27C00018BABA /* HCFavoriteFolderMenuView.m */,
+				E3CCF7D31C8D1D540018BABA /* HCBankListViewController.h */,
+				E3CCF7D41C8D1D540018BABA /* HCBankListViewController.m */,
+			);
+			path = SpringBoard;
+			sourceTree = "<group>";
+		};
+		E3CCF7871C8964890018BABA /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				E3CCF7881C8964890018BABA /* NSObject+YYModel.h */,
+				E3CCF7891C8964890018BABA /* NSObject+YYModel.m */,
+				E3CCF78A1C8964890018BABA /* YYClassInfo.h */,
+				E3CCF78B1C8964890018BABA /* YYClassInfo.m */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3CCF7481C895AA60018BABA /* HCSpringBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CCF7761C895AA70018BABA /* Build configuration list for PBXNativeTarget "HCSpringBoard" */;
+			buildPhases = (
+				E3CCF7451C895AA60018BABA /* Sources */,
+				E3CCF7461C895AA60018BABA /* Frameworks */,
+				E3CCF7471C895AA60018BABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HCSpringBoard;
+			productName = HCSpringBoard;
+			productReference = E3CCF7491C895AA60018BABA /* HCSpringBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3CCF7611C895AA70018BABA /* HCSpringBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CCF7791C895AA70018BABA /* Build configuration list for PBXNativeTarget "HCSpringBoardTests" */;
+			buildPhases = (
+				E3CCF75E1C895AA70018BABA /* Sources */,
+				E3CCF75F1C895AA70018BABA /* Frameworks */,
+				E3CCF7601C895AA70018BABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3CCF7641C895AA70018BABA /* PBXTargetDependency */,
+			);
+			name = HCSpringBoardTests;
+			productName = HCSpringBoardTests;
+			productReference = E3CCF7621C895AA70018BABA /* HCSpringBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3CCF76C1C895AA70018BABA /* HCSpringBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3CCF77C1C895AA70018BABA /* Build configuration list for PBXNativeTarget "HCSpringBoardUITests" */;
+			buildPhases = (
+				E3CCF7691C895AA70018BABA /* Sources */,
+				E3CCF76A1C895AA70018BABA /* Frameworks */,
+				E3CCF76B1C895AA70018BABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3CCF76F1C895AA70018BABA /* PBXTargetDependency */,
+			);
+			name = HCSpringBoardUITests;
+			productName = HCSpringBoardUITests;
+			productReference = E3CCF76D1C895AA70018BABA /* HCSpringBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3CCF7411C895AA60018BABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Haichuan Liu";
+				TargetAttributes = {
+					E3CCF7481C895AA60018BABA = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E3CCF7611C895AA70018BABA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E3CCF7481C895AA60018BABA;
+					};
+					E3CCF76C1C895AA70018BABA = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E3CCF7481C895AA60018BABA;
+					};
+				};
+			};
+			buildConfigurationList = E3CCF7441C895AA60018BABA /* Build configuration list for PBXProject "HCSpringBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3CCF7401C895AA60018BABA;
+			productRefGroup = E3CCF74A1C895AA60018BABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3CCF7481C895AA60018BABA /* HCSpringBoard */,
+				E3CCF7611C895AA70018BABA /* HCSpringBoardTests */,
+				E3CCF76C1C895AA70018BABA /* HCSpringBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3CCF7471C895AA60018BABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CCF75C1C895AA60018BABA /* LaunchScreen.storyboard in Resources */,
+				E3CCF7591C895AA60018BABA /* Assets.xcassets in Resources */,
+				E3CCF7571C895AA60018BABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CCF7601C895AA70018BABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CCF76B1C895AA70018BABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3CCF7451C895AA60018BABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CCF7CC1C8C78570018BABA /* HCFavoriteFolderModel.m in Sources */,
+				E3CCF7541C895AA60018BABA /* ViewController.m in Sources */,
+				E3CCF7C91C8C74DA0018BABA /* HCIndexRect.m in Sources */,
+				E3CCF78C1C8964890018BABA /* NSObject+YYModel.m in Sources */,
+				E3CCF7861C895DCB0018BABA /* HCAssistant.m in Sources */,
+				E3CCF7511C895AA60018BABA /* AppDelegate.m in Sources */,
+				E3CCF7CF1C8C78D30018BABA /* HCFavoriteIconView.m in Sources */,
+				E3CCF7D21C8C78E70018BABA /* HCFavoriteFolderView.m in Sources */,
+				E3CCF7D51C8D1D540018BABA /* HCBankListViewController.m in Sources */,
+				E3CCF7DB1C8D27C00018BABA /* HCFavoriteFolderMenuView.m in Sources */,
+				E3CCF78D1C8964890018BABA /* YYClassInfo.m in Sources */,
+				E3CCF7D81C8D26330018BABA /* HCFavoriteFolderFloatView.m in Sources */,
+				E3CCF74E1C895AA60018BABA /* main.m in Sources */,
+				E3CCF7B41C89685C0018BABA /* HCFavoriteIconModel.m in Sources */,
+				E3CCF7B71C8974390018BABA /* HCSpringBoardView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CCF75E1C895AA70018BABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CCF7671C895AA70018BABA /* HCSpringBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3CCF7691C895AA70018BABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CCF7721C895AA70018BABA /* HCSpringBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3CCF7641C895AA70018BABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3CCF7481C895AA60018BABA /* HCSpringBoard */;
+			targetProxy = E3CCF7631C895AA70018BABA /* PBXContainerItemProxy */;
+		};
+		E3CCF76F1C895AA70018BABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3CCF7481C895AA60018BABA /* HCSpringBoard */;
+			targetProxy = E3CCF76E1C895AA70018BABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3CCF7551C895AA60018BABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CCF7561C895AA60018BABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3CCF75A1C895AA60018BABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3CCF75B1C895AA60018BABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3CCF7741C895AA70018BABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E3CCF7751C895AA70018BABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3CCF7771C895AA70018BABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HCSpringBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csii.liuhaichuan.HCSpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E3CCF7781C895AA70018BABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HCSpringBoard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csii.liuhaichuan.HCSpringBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E3CCF77A1C895AA70018BABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HCSpringBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csii.liuhaichuan.HCSpringBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HCSpringBoard.app/HCSpringBoard";
+			};
+			name = Debug;
+		};
+		E3CCF77B1C895AA70018BABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HCSpringBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csii.liuhaichuan.HCSpringBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HCSpringBoard.app/HCSpringBoard";
+			};
+			name = Release;
+		};
+		E3CCF77D1C895AA70018BABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HCSpringBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csii.liuhaichuan.HCSpringBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HCSpringBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E3CCF77E1C895AA70018BABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HCSpringBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = csii.liuhaichuan.HCSpringBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HCSpringBoard;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3CCF7441C895AA60018BABA /* Build configuration list for PBXProject "HCSpringBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CCF7741C895AA70018BABA /* Debug */,
+				E3CCF7751C895AA70018BABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CCF7761C895AA70018BABA /* Build configuration list for PBXNativeTarget "HCSpringBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CCF7771C895AA70018BABA /* Debug */,
+				E3CCF7781C895AA70018BABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CCF7791C895AA70018BABA /* Build configuration list for PBXNativeTarget "HCSpringBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CCF77A1C895AA70018BABA /* Debug */,
+				E3CCF77B1C895AA70018BABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3CCF77C1C895AA70018BABA /* Build configuration list for PBXNativeTarget "HCSpringBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3CCF77D1C895AA70018BABA /* Debug */,
+				E3CCF77E1C895AA70018BABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3CCF7411C895AA60018BABA /* Project object */;
+}

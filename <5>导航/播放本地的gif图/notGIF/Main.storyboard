@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A278b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NPQ-I4-i18">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Kenia-Regular.ttf">
+            <string>Kenia-Regular</string>
+        </mutableArray>
+        <mutableArray key="Shojumaru-Regular.ttf">
+            <string>Shojumaru-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="K5z-KB-bLq">
+            <objects>
+                <collectionViewController id="6DA-JW-sZN" customClass="ATGIFViewController" customModule="notGIF" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Z2f-HP-xh0">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <collectionViewLayout key="collectionViewLayout" id="lH4-V3-xuW" customClass="ATGIFLayout" customModule="notGIF" customModuleProvider="target"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="pku-0V-3AV" customClass="PhotoCell" customModule="notGIF" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sm5-HS-6YE" customClass="FLAnimatedImageView">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                            <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="Sm5-HS-6YE" firstAttribute="top" secondItem="pku-0V-3AV" secondAttribute="top" id="X9I-cy-kFQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="Sm5-HS-6YE" secondAttribute="bottom" id="Xug-oy-fix"/>
+                                    <constraint firstAttribute="trailing" secondItem="Sm5-HS-6YE" secondAttribute="trailing" id="cwp-Iw-gEZ"/>
+                                    <constraint firstItem="Sm5-HS-6YE" firstAttribute="leading" secondItem="pku-0V-3AV" secondAttribute="leading" id="gOW-Ig-dLh"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="Sm5-HS-6YE" id="jr9-PT-ala"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="6DA-JW-sZN" id="qCI-T3-wfi"/>
+                            <outlet property="delegate" destination="6DA-JW-sZN" id="GPu-bf-jt9"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="3m2-fx-gSK"/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="teE-pe-yNd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924" y="316"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rGv-PU-lat">
+            <objects>
+                <viewController id="cvw-jt-4jC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EQN-Yt-Rp4"/>
+                        <viewControllerLayoutGuide type="bottom" id="uQd-Ww-niD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Tdb-dH-G8G">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="37x-Checkmark" translatesAutoresizingMaskIntoConstraints="NO" id="Wcd-X2-Iqw">
+                                <rect key="frame" x="21" y="292" width="37" height="37"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Click this button to stop Auto Play" textAlignment="center" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nZi-hS-mma">
+                                <rect key="frame" x="0.0" y="467" width="315" height="75"/>
+                                <fontDescription key="fontDescription" name="Kenia-Regular" family="Kenia" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="No GIFs Found" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ezz-jq-wQA">
+                                <rect key="frame" x="0.0" y="280" width="513" height="300"/>
+                                <fontDescription key="fontDescription" name="Shojumaru-Regular" family="Shojumaru" pointSize="30"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.50196081400000003" green="0.50196081400000003" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.90588235294117647" green="0.90588235294117647" blue="0.90588235294117647" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ezz-jq-wQA" firstAttribute="centerX" secondItem="Tdb-dH-G8G" secondAttribute="centerX" id="BVd-NZ-Pxi"/>
+                            <constraint firstItem="Ezz-jq-wQA" firstAttribute="centerY" secondItem="Tdb-dH-G8G" secondAttribute="centerY" id="YbV-HP-EHw"/>
+                        </constraints>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L82-zq-hxh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1667" y="303"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DMa-gV-58C">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NPQ-I4-i18" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lz2-Ly-eAC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="7uy-NP-4Mc">
+                        <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="6DA-JW-sZN" kind="relationship" relationship="rootViewController" id="LRy-wh-69r"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R60-FM-nWe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="232.5" y="316"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="37x-Checkmark" width="37" height="37"/>
+    </resources>
+</document>

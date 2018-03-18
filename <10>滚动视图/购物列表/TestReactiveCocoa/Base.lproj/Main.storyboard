@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C2055" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="JWX-bN-X8M">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="weu-nV-bO3">
+            <objects>
+                <navigationController id="JWX-bN-X8M" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YsJ-38-GtT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="2KP-N4-Rpm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b2S-fU-Onl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-194" y="332"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmp-22-7IU">
+                                <rect key="frame" x="137" y="281" width="45" height="30"/>
+                                <state key="normal" title="购物车">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="x7c-oD-MDv" kind="modal" id="2We-4c-82s"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QNP-rr-kcn">
+                                <rect key="frame" x="118" y="338" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="oJU-g9-174"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bWC-Pb-I5X">
+                                <rect key="frame" x="103" y="96" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TrP-N6-f1j">
+                                <rect key="frame" x="121" y="202" width="79" height="30"/>
+                                <state key="normal" title="跳转">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Dmp-22-7IU" secondAttribute="bottom" constant="257" id="9Jl-Q4-DtD"/>
+                            <constraint firstItem="Dmp-22-7IU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="137" id="BhX-1A-Vf7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QNP-rr-kcn" secondAttribute="trailing" constant="89" id="sdx-4Z-xNF"/>
+                            <constraint firstItem="QNP-rr-kcn" firstAttribute="top" secondItem="Dmp-22-7IU" secondAttribute="bottom" constant="27" id="zqA-kx-TT3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="K1K-Zp-uso"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="jumpButton" destination="TrP-N6-f1j" id="JPc-wK-3gf"/>
+                        <outlet property="textfield2" destination="bWC-Pb-I5X" id="bJC-1e-dxz"/>
+                        <outlet property="userName" destination="QNP-rr-kcn" id="a8g-JA-j6h"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168" y="332"/>
+        </scene>
+        <!--Buy Car View Controller-->
+        <scene sceneID="Arx-qF-PW5">
+            <objects>
+                <viewController storyboardIdentifier="MSKBuyCarViewController" id="x7c-oD-MDv" customClass="MSKBuyCarViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="alZ-bt-wng"/>
+                        <viewControllerLayoutGuide type="bottom" id="kVC-h6-oUZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ekm-7Y-W6a">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="HNt-vW-j1A">
+                                <rect key="frame" x="0.0" y="53" width="320" height="470"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="x7c-oD-MDv" id="ziM-sV-9pD"/>
+                                    <outlet property="delegate" destination="x7c-oD-MDv" id="Hv0-Hi-6Dc"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jlW-no-KEf">
+                                <rect key="frame" x="257" y="21" width="58" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="58" id="LJd-sS-kaz"/>
+                                </constraints>
+                                <state key="normal" title="编辑">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HNt-vW-j1A" firstAttribute="top" secondItem="ekm-7Y-W6a" secondAttribute="top" constant="53" id="hgO-dN-m68"/>
+                            <constraint firstAttribute="trailing" secondItem="HNt-vW-j1A" secondAttribute="trailing" id="lI2-fe-5pF"/>
+                            <constraint firstItem="HNt-vW-j1A" firstAttribute="top" secondItem="jlW-no-KEf" secondAttribute="bottom" constant="2" id="lew-4U-jmo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jlW-no-KEf" secondAttribute="trailing" constant="-11" id="vk0-9e-EgG"/>
+                            <constraint firstItem="HNt-vW-j1A" firstAttribute="leading" secondItem="ekm-7Y-W6a" secondAttribute="leading" id="wxv-qd-0Yy"/>
+                            <constraint firstItem="HNt-vW-j1A" firstAttribute="bottom" secondItem="kVC-h6-oUZ" secondAttribute="top" constant="-45" id="zAb-dn-DO0"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="carTableview" destination="HNt-vW-j1A" id="ByD-is-wF7"/>
+                        <outlet property="editBtn" destination="jlW-no-KEf" id="dh6-Q4-m3i"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqd-oA-vPo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="700" y="332"/>
+        </scene>
+    </scenes>
+</document>

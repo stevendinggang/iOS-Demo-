@@ -1,0 +1,573 @@
+{
+    "Data": [
+    {
+        "kindCode": "G_Build",
+        "kindName": "建筑",
+        "kindLogo": "/TypeImages/glass/G_Build.jpg",
+        "second": [
+        {
+            "KindCode": "B_DM",
+            "kindName": "镀膜玻璃"
+        },
+        {
+            "KindCode": "B_FD",
+            "kindName": "防弹玻璃"
+        },
+        {
+            "KindCode": "B_FH",
+            "kindName": "防火玻璃"
+        },
+        {
+            "KindCode": "B_GH",
+            "kindName": "钢化玻璃"
+        },
+        {
+            "KindCode": "B_JJ",
+            "kindName": "夹胶玻璃"
+        },
+        {
+            "KindCode": "B_LowE",
+            "kindName": "Low-E玻璃"
+        },
+        {
+            "KindCode": "B_MC",
+            "kindName": "门窗玻璃"
+        },
+        {
+            "KindCode": "B_Normal",
+            "kindName": "普通玻璃"
+        },
+        {
+            "KindCode": "B_Other",
+            "kindName": "其他"
+        },
+        {
+            "KindCode": "B_RW",
+            "kindName": "热弯玻璃"
+        },
+        {
+            "KindCode": "B_TG",
+            "kindName": "调光玻璃"
+        },
+        {
+            "KindCode": "B_ZK",
+            "kindName": "中空玻璃"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_Car",
+        "kindName": "汽车",
+        "kindLogo": "/TypeImages/glass/G_Car.jpg",
+        "second": [
+        {
+            "KindCode": "Car_Audi",
+            "kindName": "奥迪"
+        },
+        {
+            "KindCode": "Car_BeiJing Jeep",
+            "kindName": "北京Jeep"
+        },
+        {
+            "KindCode": "Car_Bently",
+            "kindName": "宾利"
+        },
+        {
+            "KindCode": "Car_Benz",
+            "kindName": "奔驰"
+        },
+        {
+            "KindCode": "Car_BMW",
+            "kindName": "宝马"
+        },
+        {
+            "KindCode": "Car_Buick",
+            "kindName": "别克"
+        },
+        {
+            "KindCode": "Car_BYD",
+            "kindName": "比亚迪"
+        },
+        {
+            "KindCode": "Car_Cadillac",
+            "kindName": "凯迪拉克"
+        },
+        {
+            "KindCode": "Car_ChangAn",
+            "kindName": "长安"
+        },
+        {
+            "KindCode": "Car_Chevrolet",
+            "kindName": "雪佛兰"
+        },
+        {
+            "KindCode": "Car_Citroen",
+            "kindName": "雪铁龙"
+        },
+        {
+            "KindCode": "Car_Daihatsu",
+            "kindName": "大发"
+        },
+        {
+            "KindCode": "Car_DF",
+            "kindName": "东风"
+        },
+        {
+            "KindCode": "Car_Dodge",
+            "kindName": "道奇"
+        },
+        {
+            "KindCode": "Car_Ferrari",
+            "kindName": "法拉利"
+        },
+        {
+            "KindCode": "Car_Fiat",
+            "kindName": "菲亚特"
+        },
+        {
+            "KindCode": "Car_Ford",
+            "kindName": "福特"
+        },
+        {
+            "KindCode": "Car_GM",
+            "kindName": "通用"
+        },
+        {
+            "KindCode": "Car_Honda",
+            "kindName": "本田"
+        },
+        {
+            "KindCode": "Car_HONGQI",
+            "kindName": "红旗"
+        },
+        {
+            "KindCode": "Car_Hummer",
+            "kindName": "悍马"
+        },
+        {
+            "KindCode": "Car_Hyundai",
+            "kindName": "现代"
+        },
+        {
+            "KindCode": "Car_Isuzu",
+            "kindName": "五十铃"
+        },
+        {
+            "KindCode": "Car_Jaguar",
+            "kindName": "美洲虎"
+        },
+        {
+            "KindCode": "Car_Kia",
+            "kindName": "起亚"
+        },
+        {
+            "KindCode": "Car_lada",
+            "kindName": "拉达"
+        },
+        {
+            "KindCode": "Car_Lamborghini",
+            "kindName": "兰博基尼"
+        },
+        {
+            "KindCode": "Car_Landrover",
+            "kindName": "路虎"
+        },
+        {
+            "KindCode": "Car_Lexus",
+            "kindName": "雷克萨斯"
+        },
+        {
+            "KindCode": "Car_Lotus",
+            "kindName": "莲花"
+        },
+        {
+            "KindCode": "Car_Man",
+            "kindName": "猛狮"
+        },
+        {
+            "KindCode": "Car_Maybach",
+            "kindName": "迈巴赫"
+        },
+        {
+            "KindCode": "Car_Mini",
+            "kindName": "迷你"
+        },
+        {
+            "KindCode": "Car_Mitsubishi",
+            "kindName": "三菱"
+        },
+        {
+            "KindCode": "Car_Morgan",
+            "kindName": "摩根"
+        },
+        {
+            "KindCode": "Car_Nissan",
+            "kindName": "尼桑"
+        },
+        {
+            "KindCode": "Car_Opel",
+            "kindName": "欧宝"
+        },
+        {
+            "KindCode": "Car_Peugeot",
+            "kindName": "标致"
+        },
+        {
+            "KindCode": "Car_Porsche",
+            "kindName": "保时捷"
+        },
+        {
+            "KindCode": "Car_Renault",
+            "kindName": "雷诺"
+        },
+        {
+            "KindCode": "Car_Rolls-royce",
+            "kindName": "劳斯莱斯 "
+        },
+        {
+            "KindCode": "Car_Saab",
+            "kindName": "绅宝"
+        },
+        {
+            "KindCode": "Car_Saturncars",
+            "kindName": "土星"
+        },
+        {
+            "KindCode": "Car_Skoda",
+            "kindName": "斯柯达"
+        },
+        {
+            "KindCode": "Car_Ssangyong",
+            "kindName": "双龙"
+        },
+        {
+            "KindCode": "Car_Subaru",
+            "kindName": "富士重工"
+        },
+        {
+            "KindCode": "Car_Suzuki",
+            "kindName": "铃木"
+        },
+        {
+            "KindCode": "Car_Toyota",
+            "kindName": "丰田"
+        },
+        {
+            "KindCode": "Car_Venturi",
+            "kindName": "文图瑞"
+        },
+        {
+            "KindCode": "Car_Volkswagen",
+            "kindName": "大众"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_Crafts",
+        "kindName": "工艺品",
+        "kindLogo": "/TypeImages/glass/G_Crafts.jpg",
+        "second": [
+        {
+            "KindCode": "C_BLB",
+            "kindName": "玻璃杯"
+        },
+        {
+            "KindCode": "C_BLP",
+            "kindName": "玻璃瓶"
+        },
+        {
+            "KindCode": "C_BLPZ",
+            "kindName": "玻璃盘"
+        },
+        {
+            "KindCode": "C_BLQ",
+            "kindName": "玻璃球"
+        },
+        {
+            "KindCode": "C_BLT",
+            "kindName": "玻璃台"
+        },
+        {
+            "KindCode": "C_BLYQ",
+            "kindName": "玻璃仪器"
+        },
+        {
+            "KindCode": "C_HZP",
+            "kindName": "化妆瓶"
+        },
+        {
+            "KindCode": "C_Other",
+            "kindName": "其他"
+        },
+        {
+            "KindCode": "C_SYBL",
+            "kindName": "石英玻璃"
+        },
+        {
+            "KindCode": "C_XSP",
+            "kindName": "香水瓶"
+        },
+        {
+            "KindCode": "C_YBBL",
+            "kindName": "仪表玻璃"
+        },
+        {
+            "KindCode": "C_YLP",
+            "kindName": "饮料瓶"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_Deck",
+        "kindName": "装饰",
+        "kindLogo": "/TypeImages/glass/G_Deck.jpg",
+        "second": [
+        {
+            "KindCode": "D_AMBL",
+            "kindName": "凹蒙玻璃"
+        },
+        {
+            "KindCode": "D_BLHJ",
+            "kindName": "玻璃护角"
+        },
+        {
+            "KindCode": "D_DXTSBL",
+            "kindName": "单向透视玻璃"
+        },
+        {
+            "KindCode": "D_JSBL",
+            "kindName": "夹丝玻璃"
+        },
+        {
+            "KindCode": "D_KHBL",
+            "kindName": "刻花玻璃"
+        },
+        {
+            "KindCode": "D_KQBL",
+            "kindName": "烤漆玻璃"
+        },
+        {
+            "KindCode": "D_LJ",
+            "kindName": "铝镜"
+        },
+        {
+            "KindCode": "D_MCKBL",
+            "kindName": "马赛克玻璃"
+        },
+        {
+            "KindCode": "D_Other",
+            "kindName": "其他"
+        },
+        {
+            "KindCode": "D_SYBL",
+            "kindName": "丝印玻璃"
+        },
+        {
+            "KindCode": "D_XQBL",
+            "kindName": "镶嵌玻璃"
+        },
+        {
+            "KindCode": "D_YHBL",
+            "kindName": "压花玻璃"
+        },
+        {
+            "KindCode": "D_YJ",
+            "kindName": "银镜"
+        },
+        {
+            "KindCode": "D_YMBL",
+            "kindName": "移门玻璃"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_HomeE",
+        "kindName": "家电",
+        "kindLogo": "/TypeImages/glass/G_HomeE.jpg",
+        "second": [
+        {
+            "KindCode": "E_BX",
+            "kindName": "冰箱玻璃"
+        },
+        {
+            "KindCode": "E_CJ",
+            "kindName": "彩晶玻璃"
+        },
+        {
+            "KindCode": "E_KT",
+            "kindName": "空调玻璃"
+        },
+        {
+            "KindCode": "E_Other",
+            "kindName": "其他"
+        },
+        {
+            "KindCode": "E_WBL",
+            "kindName": "微波炉玻璃"
+        },
+        {
+            "KindCode": "E_WJ",
+            "kindName": "微晶玻璃"
+        },
+        {
+            "KindCode": "E_XDG",
+            "kindName": "消毒柜玻璃"
+        },
+        {
+            "KindCode": "E_YYJ",
+            "kindName": "油烟机玻璃"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_HomeF",
+        "kindName": "家私",
+        "kindLogo": "/TypeImages/glass/G_HomeF.jpg",
+        "second": [
+        {
+            "KindCode": "F_CG",
+            "kindName": "橱柜玻璃"
+        },
+        {
+            "KindCode": "F_CJ",
+            "kindName": "玻璃茶几"
+        },
+        {
+            "KindCode": "F_CY",
+            "kindName": "彩釉玻璃"
+        },
+        {
+            "KindCode": "F_CZ",
+            "kindName": "玻璃餐桌"
+        },
+        {
+            "KindCode": "F_DSG",
+            "kindName": "玻璃电视柜"
+        },
+        {
+            "KindCode": "F_Other",
+            "kindName": "其他"
+        },
+        {
+            "KindCode": "F_ZSG",
+            "kindName": "玻璃展示柜"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_Light",
+        "kindName": "灯饰",
+        "kindLogo": "/TypeImages/glass/G_Light.jpg",
+        "second": [
+        {
+            "KindCode": "L_BLDZ",
+            "kindName": "玻璃灯罩"
+        },
+        {
+            "KindCode": "L_DJBL",
+            "kindName": "灯具玻璃"
+        },
+        {
+            "KindCode": "L_GPGBL",
+            "kindName": "高硼硅玻璃"
+        },
+        {
+            "KindCode": "L_Other",
+            "kindName": "其他"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_Other",
+        "kindName": "其他",
+        "kindLogo": "/TypeImages/glass/G_Other.jpg",
+        "second": [
+        {
+            "KindCode": "O_BLCB",
+            "kindName": "玻璃菜板"
+        },
+        {
+            "KindCode": "O_BLG",
+            "kindName": "玻璃管"
+        },
+        {
+            "KindCode": "O_CYBL",
+            "kindName": "船用玻璃"
+        },
+        {
+            "KindCode": "O_GXBL",
+            "kindName": "光学玻璃"
+        },
+        {
+            "KindCode": "O_SYP",
+            "kindName": "输液瓶"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_Phone",
+        "kindName": "手机",
+        "kindLogo": "/TypeImages/glass/G_Phone.jpg",
+        "second": [
+        {
+            "KindCode": "P_HUAWEI",
+            "kindName": "华为"
+        },
+        {
+            "KindCode": "P_IPhone",
+            "kindName": "苹果"
+        },
+        {
+            "KindCode": "P_MI",
+            "kindName": "小米"
+        },
+        {
+            "KindCode": "P_MOTOROLA",
+            "kindName": "摩托罗拉"
+        },
+        {
+            "KindCode": "P_Nokia",
+            "kindName": "诺基亚"
+        },
+        {
+            "KindCode": "P_NUBIA",
+            "kindName": "努比亚"
+        },
+        {
+            "KindCode": "P_SAMSUNG",
+            "kindName": "三星"
+        },
+        {
+            "KindCode": "P_TCL",
+            "kindName": "TCL"
+        },
+        {
+            "KindCode": "P_ZTE",
+            "kindName": "中兴"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_Room",
+        "kindName": "淋浴房",
+        "kindLogo": "/TypeImages/glass/G_Room.jpg",
+        "second": [
+        {
+            "KindCode": "R_LYF",
+            "kindName": "淋浴房玻璃"
+        }
+        ]
+    },
+    {
+        "kindCode": "G_Sun",
+        "kindName": "太阳能",
+        "kindLogo": "/TypeImages/glass/G_Sun.jpg",
+        "second": [
+        {
+            "KindCode": "S_TYN",
+            "kindName": "太阳能玻璃"
+        }
+        ]
+    }
+    ]
+}

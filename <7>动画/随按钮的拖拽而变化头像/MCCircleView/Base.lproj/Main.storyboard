@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MCCircleView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Fs0-ai-FNB">
+                                <rect key="frame" x="58" y="508" width="204" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6yW-uM-moX"/>
+                                    <constraint firstAttribute="width" constant="200" id="RGu-Vf-zqd"/>
+                                </constraints>
+                                <color key="maximumTrackTintColor" red="1" green="0.1915604441" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="thumbTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ENu-rE-SSg"/>
+                                </connections>
+                            </slider>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qYn-P6-y1i" customClass="CircleView" customModule="MCCircleView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="188" width="320" height="300"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.69880756580000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="Cum-RE-1UN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Fs0-ai-FNB" secondAttribute="bottom" constant="30" id="Qr2-4T-RAv"/>
+                            <constraint firstItem="Fs0-ai-FNB" firstAttribute="top" secondItem="qYn-P6-y1i" secondAttribute="bottom" constant="20" id="Y6s-hH-Xxt"/>
+                            <constraint firstItem="Fs0-ai-FNB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cyu-t5-DlY"/>
+                            <constraint firstItem="qYn-P6-y1i" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="j3j-XR-MOu"/>
+                            <constraint firstAttribute="trailing" secondItem="qYn-P6-y1i" secondAttribute="trailing" id="k9w-VZ-zad"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="circleView" destination="qYn-P6-y1i" id="Msw-VQ-n8h"/>
+                        <outlet property="sliderView" destination="Fs0-ai-FNB" id="KuG-Yy-mbG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="214" y="156"/>
+        </scene>
+    </scenes>
+</document>

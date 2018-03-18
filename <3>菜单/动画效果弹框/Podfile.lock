@@ -1,0 +1,10 @@
+PODS:
+  - ContextMenu.iOS (1.0.0)
+
+DEPENDENCIES:
+  - ContextMenu.iOS (~> 1.0.0)
+
+SPEC CHECKSUMS:
+  ContextMenu.iOS: 7da78b3f99e604669b75e55146c6c33147f64f99
+
+COCOAPODS: 0.37.2

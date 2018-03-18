@@ -1,0 +1,17 @@
+@import UIKit;
+
+@interface UIView (NibInitable)
+
+/*!
+ *  Initialize a view with a specified nib in the main bundle
+ *
+ *  @param nibNameOrNil the name of the nib or nil.  If `nil`, will use class name.  In Swift, do not use `nil` or name spacing will conflict w/ nib name.
+ *
+ *  @return an initialized view with the specified nib name, or nil if the nib can't be found or nib class conflicts.
+ */
+- (instancetype)initWithNibNamed:(NSString *)nibNameOrNil;
+
+@end
+// 版权属于原作者
+// http://code4app.com (cn) http://code4app.net (en)
+// 发布代码于最专业的源码分享网站: Code4App.com

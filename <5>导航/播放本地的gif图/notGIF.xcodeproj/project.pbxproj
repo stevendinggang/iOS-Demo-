@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D4DE53B4EB2748F6210A0B1 /* Pods_notGIF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6F37F193D5014C19FD4EC0 /* Pods_notGIF.framework */; };
+		C97E96FF1C28157D004D74E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E96FE1C28157D004D74E8 /* AppDelegate.swift */; };
+		C97E97141C28157D004D74E8 /* notGIFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E97131C28157D004D74E8 /* notGIFTests.swift */; };
+		C97E971F1C28157D004D74E8 /* notGIFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E971E1C28157D004D74E8 /* notGIFUITests.swift */; };
+		C97E973B1C28248A004D74E8 /* ATGIFLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E97331C28248A004D74E8 /* ATGIFLayout.swift */; };
+		C97E973C1C28248A004D74E8 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E97341C28248A004D74E8 /* GuideView.swift */; };
+		C97E973D1C28248A004D74E8 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E97351C28248A004D74E8 /* PhotoCell.swift */; };
+		C97E973E1C28248A004D74E8 /* PopDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E97361C28248A004D74E8 /* PopDetailView.swift */; };
+		C97E973F1C28248A004D74E8 /* PullToRefreshLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E97371C28248A004D74E8 /* PullToRefreshLabelView.swift */; };
+		C97E97451C2824A9004D74E8 /* ATGIFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E97421C2824A9004D74E8 /* ATGIFViewController.swift */; };
+		C97E974B1C2824B7004D74E8 /* GIFLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E97481C2824B7004D74E8 /* GIFLibrary.swift */; };
+		C97E974C1C2824B7004D74E8 /* PhotosProposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E97491C2824B7004D74E8 /* PhotosProposer.swift */; };
+		C97E97531C2824CF004D74E8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97E974F1C2824CF004D74E8 /* Launch Screen.storyboard */; };
+		C97E97541C2824CF004D74E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C97E97501C2824CF004D74E8 /* Main.storyboard */; };
+		C97E97601C2826AD004D74E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C97E975F1C2826AD004D74E8 /* Assets.xcassets */; };
+		C97E976E1C282975004D74E8 /* Kenia-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C97E976C1C282975004D74E8 /* Kenia-Regular.ttf */; };
+		C97E976F1C282975004D74E8 /* Shojumaru-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C97E976D1C282975004D74E8 /* Shojumaru-Regular.ttf */; };
+		C98CA2621C35326F00543671 /* UIImage+Crop.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98CA2611C35326F00543671 /* UIImage+Crop.swift */; };
+		C98CA2641C35329A00543671 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98CA2631C35329A00543671 /* UIColor+Hex.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C97E97101C28157D004D74E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97E96F31C28157D004D74E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97E96FA1C28157D004D74E8;
+			remoteInfo = notGIF;
+		};
+		C97E971B1C28157D004D74E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C97E96F31C28157D004D74E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97E96FA1C28157D004D74E8;
+			remoteInfo = notGIF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011CB884C8558FEA62BB0CE7 /* Pods-notGIF.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notGIF.debug.xcconfig"; path = "Pods/Target Support Files/Pods-notGIF/Pods-notGIF.debug.xcconfig"; sourceTree = "<group>"; };
+		216B71CC51308F1F83D2D4C1 /* Pods-notGIF.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-notGIF.release.xcconfig"; path = "Pods/Target Support Files/Pods-notGIF/Pods-notGIF.release.xcconfig"; sourceTree = "<group>"; };
+		C97E96FB1C28157D004D74E8 /* notGIF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = notGIF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97E96FE1C28157D004D74E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = notGIF/AppDelegate.swift; sourceTree = "<group>"; };
+		C97E970F1C28157D004D74E8 /* notGIFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notGIFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97E97131C28157D004D74E8 /* notGIFTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notGIFTests.swift; sourceTree = "<group>"; };
+		C97E97151C28157D004D74E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97E971A1C28157D004D74E8 /* notGIFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = notGIFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97E971E1C28157D004D74E8 /* notGIFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notGIFUITests.swift; sourceTree = "<group>"; };
+		C97E97201C28157D004D74E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C97E97331C28248A004D74E8 /* ATGIFLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ATGIFLayout.swift; path = notGIF/ATGIFLayout.swift; sourceTree = "<group>"; };
+		C97E97341C28248A004D74E8 /* GuideView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GuideView.swift; path = notGIF/GuideView.swift; sourceTree = "<group>"; };
+		C97E97351C28248A004D74E8 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoCell.swift; path = notGIF/PhotoCell.swift; sourceTree = "<group>"; };
+		C97E97361C28248A004D74E8 /* PopDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PopDetailView.swift; path = notGIF/PopDetailView.swift; sourceTree = "<group>"; };
+		C97E97371C28248A004D74E8 /* PullToRefreshLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PullToRefreshLabelView.swift; path = notGIF/PullToRefreshLabelView.swift; sourceTree = "<group>"; };
+		C97E97421C2824A9004D74E8 /* ATGIFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ATGIFViewController.swift; path = notGIF/ATGIFViewController.swift; sourceTree = "<group>"; };
+		C97E97481C2824B7004D74E8 /* GIFLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GIFLibrary.swift; path = notGIF/GIFLibrary.swift; sourceTree = "<group>"; };
+		C97E97491C2824B7004D74E8 /* PhotosProposer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosProposer.swift; path = notGIF/PhotosProposer.swift; sourceTree = "<group>"; };
+		C97E974E1C2824CF004D74E8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = notGIF/Info.plist; sourceTree = "<group>"; };
+		C97E974F1C2824CF004D74E8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "notGIF/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		C97E97501C2824CF004D74E8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = notGIF/Main.storyboard; sourceTree = "<group>"; };
+		C97E97511C2824CF004D74E8 /* notGIF_Bridging_Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notGIF_Bridging_Header.h; path = notGIF/notGIF_Bridging_Header.h; sourceTree = "<group>"; };
+		C97E975F1C2826AD004D74E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = notGIF/Assets.xcassets; sourceTree = "<group>"; };
+		C97E97611C28274E004D74E8 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "/usr/lib/libc++.1.dylib"; sourceTree = "<absolute>"; };
+		C97E97631C282788004D74E8 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = /usr/lib/libsqlite3.dylib; sourceTree = "<absolute>"; };
+		C97E97651C2827A0004D74E8 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = /usr/lib/libz.1.dylib; sourceTree = "<absolute>"; };
+		C97E97671C2827B5004D74E8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C97E97691C2827CB004D74E8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		C97E976C1C282975004D74E8 /* Kenia-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kenia-Regular.ttf"; sourceTree = "<group>"; };
+		C97E976D1C282975004D74E8 /* Shojumaru-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Shojumaru-Regular.ttf"; sourceTree = "<group>"; };
+		C98CA2611C35326F00543671 /* UIImage+Crop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Crop.swift"; path = "notGIF/UIImage+Crop.swift"; sourceTree = "<group>"; };
+		C98CA2631C35329A00543671 /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Hex.swift"; path = "notGIF/UIColor+Hex.swift"; sourceTree = "<group>"; };
+		DC6F37F193D5014C19FD4EC0 /* Pods_notGIF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_notGIF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C97E96F81C28157D004D74E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D4DE53B4EB2748F6210A0B1 /* Pods_notGIF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97E970C1C28157D004D74E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97E97171C28157D004D74E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DAFCA39E964A3BF5FEED137 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C97E97671C2827B5004D74E8 /* SystemConfiguration.framework */,
+				C97E97691C2827CB004D74E8 /* CoreTelephony.framework */,
+				DC6F37F193D5014C19FD4EC0 /* Pods_notGIF.framework */,
+				C97E97611C28274E004D74E8 /* libc++.1.dylib */,
+				C97E97651C2827A0004D74E8 /* libz.1.dylib */,
+				C97E97631C282788004D74E8 /* libsqlite3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C10E30E611CE5F5D572812FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DAFCA39E964A3BF5FEED137 /* Frameworks */,
+				011CB884C8558FEA62BB0CE7 /* Pods-notGIF.debug.xcconfig */,
+				216B71CC51308F1F83D2D4C1 /* Pods-notGIF.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C97E96F21C28157D004D74E8 = {
+			isa = PBXGroup;
+			children = (
+				C97E972F1C28242B004D74E8 /* Controllers */,
+				C97E97301C282434004D74E8 /* Views */,
+				C97E97311C282444004D74E8 /* Models */,
+				C97E972E1C282377004D74E8 /* Supporting files */,
+				C97E96FC1C28157D004D74E8 /* Products */,
+				C97E972C1C28162D004D74E8 /* Tests */,
+				C10E30E611CE5F5D572812FB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C97E96FC1C28157D004D74E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C97E96FB1C28157D004D74E8 /* notGIF.app */,
+				C97E970F1C28157D004D74E8 /* notGIFTests.xctest */,
+				C97E971A1C28157D004D74E8 /* notGIFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C97E97121C28157D004D74E8 /* notGIFTests */ = {
+			isa = PBXGroup;
+			children = (
+				C97E97131C28157D004D74E8 /* notGIFTests.swift */,
+				C97E97151C28157D004D74E8 /* Info.plist */,
+			);
+			path = notGIFTests;
+			sourceTree = "<group>";
+		};
+		C97E971D1C28157D004D74E8 /* notGIFUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C97E971E1C28157D004D74E8 /* notGIFUITests.swift */,
+				C97E97201C28157D004D74E8 /* Info.plist */,
+			);
+			path = notGIFUITests;
+			sourceTree = "<group>";
+		};
+		C97E972C1C28162D004D74E8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C97E971D1C28157D004D74E8 /* notGIFUITests */,
+				C97E97121C28157D004D74E8 /* notGIFTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		C97E972E1C282377004D74E8 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				C97E976B1C282975004D74E8 /* Fonts */,
+				C97E975F1C2826AD004D74E8 /* Assets.xcassets */,
+				C97E974F1C2824CF004D74E8 /* Launch Screen.storyboard */,
+				C97E97501C2824CF004D74E8 /* Main.storyboard */,
+				C97E97511C2824CF004D74E8 /* notGIF_Bridging_Header.h */,
+				C97E974E1C2824CF004D74E8 /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		C97E972F1C28242B004D74E8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C97E97421C2824A9004D74E8 /* ATGIFViewController.swift */,
+				C97E96FE1C28157D004D74E8 /* AppDelegate.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C97E97301C282434004D74E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C97E97331C28248A004D74E8 /* ATGIFLayout.swift */,
+				C97E97341C28248A004D74E8 /* GuideView.swift */,
+				C97E97351C28248A004D74E8 /* PhotoCell.swift */,
+				C97E97361C28248A004D74E8 /* PopDetailView.swift */,
+				C97E97371C28248A004D74E8 /* PullToRefreshLabelView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		C97E97311C282444004D74E8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C97E97481C2824B7004D74E8 /* GIFLibrary.swift */,
+				C97E97491C2824B7004D74E8 /* PhotosProposer.swift */,
+				C98CA2611C35326F00543671 /* UIImage+Crop.swift */,
+				C98CA2631C35329A00543671 /* UIColor+Hex.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		C97E976B1C282975004D74E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C97E976C1C282975004D74E8 /* Kenia-Regular.ttf */,
+				C97E976D1C282975004D74E8 /* Shojumaru-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C97E96FA1C28157D004D74E8 /* notGIF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97E97231C28157D004D74E8 /* Build configuration list for PBXNativeTarget "notGIF" */;
+			buildPhases = (
+				909B25B222978591973B60D1 /* Check Pods Manifest.lock */,
+				C97E96F71C28157D004D74E8 /* Sources */,
+				C97E96F81C28157D004D74E8 /* Frameworks */,
+				C97E96F91C28157D004D74E8 /* Resources */,
+				397A9F94CDEE11573B97516D /* Embed Pods Frameworks */,
+				51F84199A3E640B4244156D7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = notGIF;
+			productName = notGIF;
+			productReference = C97E96FB1C28157D004D74E8 /* notGIF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C97E970E1C28157D004D74E8 /* notGIFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97E97261C28157D004D74E8 /* Build configuration list for PBXNativeTarget "notGIFTests" */;
+			buildPhases = (
+				C97E970B1C28157D004D74E8 /* Sources */,
+				C97E970C1C28157D004D74E8 /* Frameworks */,
+				C97E970D1C28157D004D74E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97E97111C28157D004D74E8 /* PBXTargetDependency */,
+			);
+			name = notGIFTests;
+			productName = notGIFTests;
+			productReference = C97E970F1C28157D004D74E8 /* notGIFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C97E97191C28157D004D74E8 /* notGIFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C97E97291C28157D004D74E8 /* Build configuration list for PBXNativeTarget "notGIFUITests" */;
+			buildPhases = (
+				C97E97161C28157D004D74E8 /* Sources */,
+				C97E97171C28157D004D74E8 /* Frameworks */,
+				C97E97181C28157D004D74E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C97E971C1C28157D004D74E8 /* PBXTargetDependency */,
+			);
+			name = notGIFUITests;
+			productName = notGIFUITests;
+			productReference = C97E971A1C28157D004D74E8 /* notGIFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C97E96F31C28157D004D74E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = HBGHZ85ABK;
+				TargetAttributes = {
+					C97E96FA1C28157D004D74E8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C97E970E1C28157D004D74E8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C97E96FA1C28157D004D74E8;
+					};
+					C97E97191C28157D004D74E8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C97E96FA1C28157D004D74E8;
+					};
+				};
+			};
+			buildConfigurationList = C97E96F61C28157D004D74E8 /* Build configuration list for PBXProject "notGIF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C97E96F21C28157D004D74E8;
+			productRefGroup = C97E96FC1C28157D004D74E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C97E96FA1C28157D004D74E8 /* notGIF */,
+				C97E970E1C28157D004D74E8 /* notGIFTests */,
+				C97E97191C28157D004D74E8 /* notGIFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C97E96F91C28157D004D74E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97E97541C2824CF004D74E8 /* Main.storyboard in Resources */,
+				C97E97531C2824CF004D74E8 /* Launch Screen.storyboard in Resources */,
+				C97E97601C2826AD004D74E8 /* Assets.xcassets in Resources */,
+				C97E976E1C282975004D74E8 /* Kenia-Regular.ttf in Resources */,
+				C97E976F1C282975004D74E8 /* Shojumaru-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97E970D1C28157D004D74E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97E97181C28157D004D74E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		397A9F94CDEE11573B97516D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notGIF/Pods-notGIF-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51F84199A3E640B4244156D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-notGIF/Pods-notGIF-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909B25B222978591973B60D1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C97E96F71C28157D004D74E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97E974C1C2824B7004D74E8 /* PhotosProposer.swift in Sources */,
+				C97E96FF1C28157D004D74E8 /* AppDelegate.swift in Sources */,
+				C97E97451C2824A9004D74E8 /* ATGIFViewController.swift in Sources */,
+				C97E973F1C28248A004D74E8 /* PullToRefreshLabelView.swift in Sources */,
+				C97E973E1C28248A004D74E8 /* PopDetailView.swift in Sources */,
+				C97E973D1C28248A004D74E8 /* PhotoCell.swift in Sources */,
+				C98CA2641C35329A00543671 /* UIColor+Hex.swift in Sources */,
+				C98CA2621C35326F00543671 /* UIImage+Crop.swift in Sources */,
+				C97E973B1C28248A004D74E8 /* ATGIFLayout.swift in Sources */,
+				C97E974B1C2824B7004D74E8 /* GIFLibrary.swift in Sources */,
+				C97E973C1C28248A004D74E8 /* GuideView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97E970B1C28157D004D74E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97E97141C28157D004D74E8 /* notGIFTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C97E97161C28157D004D74E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97E971F1C28157D004D74E8 /* notGIFUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C97E97111C28157D004D74E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97E96FA1C28157D004D74E8 /* notGIF */;
+			targetProxy = C97E97101C28157D004D74E8 /* PBXContainerItemProxy */;
+		};
+		C97E971C1C28157D004D74E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C97E96FA1C28157D004D74E8 /* notGIF */;
+			targetProxy = C97E971B1C28157D004D74E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C97E97211C28157D004D74E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JinWei Shi (HBGHZ85ABK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JinWei Shi (HBGHZ85ABK)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "fe170567-c499-4cea-b9e7-63f258fdc73f";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C97E97221C28157D004D74E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: JinWei Shi (HBGHZ85ABK)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JinWei Shi (HBGHZ85ABK)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "fe170567-c499-4cea-b9e7-63f258fdc73f";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C97E97241C28157D004D74E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011CB884C8558FEA62BB0CE7 /* Pods-notGIF.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = ATicon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JinWei Shi (HBGHZ85ABK)";
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Private/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Private/FLAnimatedImage\"",
+				);
+				INFOPLIST_FILE = notGIF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKExport",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = atuo.notGIF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe170567-c499-4cea-b9e7-63f258fdc73f";
+				SWIFT_OBJC_BRIDGING_HEADER = notGIF/notGIF_Bridging_Header.h;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C97E97251C28157D004D74E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 216B71CC51308F1F83D2D4C1 /* Pods-notGIF.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = ATicon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: JinWei Shi (HBGHZ85ABK)";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Private/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Private/FLAnimatedImage\"",
+				);
+				INFOPLIST_FILE = notGIF/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKExport",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = atuo.notGIF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fe170567-c499-4cea-b9e7-63f258fdc73f";
+				SWIFT_OBJC_BRIDGING_HEADER = notGIF/notGIF_Bridging_Header.h;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "arm64 armv7s";
+			};
+			name = Release;
+		};
+		C97E97271C28157D004D74E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = notGIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atuo.notGIFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notGIF.app/notGIF";
+			};
+			name = Debug;
+		};
+		C97E97281C28157D004D74E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = notGIFTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atuo.notGIFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/notGIF.app/notGIF";
+			};
+			name = Release;
+		};
+		C97E972A1C28157D004D74E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = notGIFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atuo.notGIFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = notGIF;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C97E972B1C28157D004D74E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = notGIFUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = atuo.notGIFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = notGIF;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C97E96F61C28157D004D74E8 /* Build configuration list for PBXProject "notGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97E97211C28157D004D74E8 /* Debug */,
+				C97E97221C28157D004D74E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97E97231C28157D004D74E8 /* Build configuration list for PBXNativeTarget "notGIF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97E97241C28157D004D74E8 /* Debug */,
+				C97E97251C28157D004D74E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97E97261C28157D004D74E8 /* Build configuration list for PBXNativeTarget "notGIFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97E97271C28157D004D74E8 /* Debug */,
+				C97E97281C28157D004D74E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C97E97291C28157D004D74E8 /* Build configuration list for PBXNativeTarget "notGIFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C97E972A1C28157D004D74E8 /* Debug */,
+				C97E972B1C28157D004D74E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C97E96F31C28157D004D74E8 /* Project object */;
+}

@@ -1,0 +1,20 @@
+[{
+    "classname": "SinaHomeTableViewController",
+    "classtitle": "首页",
+    "imageName": "tabbar_home"
+},
+{
+    "classame": "SinaMessageTableViewController",
+    "classtitle": "消息",
+    "imageName": "tabbar_message_center"
+},
+{
+    "classname": "SinaDiscoverTableViewController",
+    "classtitle": "发现",
+    "imageName": "tabbar_discover"
+},
+{
+    "classname": "SinaProfileTableViewController",
+    "classtitle": "我",
+    "imageName": "tabbar_profile"
+}]

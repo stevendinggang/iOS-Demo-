@@ -1,0 +1,5 @@
+platform :ios, "8.2"
+
+pod "MKNetworkKit"
+pod "ReactiveMantle"
+pod "SDWebImage"
